@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        main {
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+
+        i {
+            margin-left: 50px;
+            font-size: 75px;
+            color: white;
+        }
+
+        i:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <h1 class="text-light" href="#">BURSA ETKİNLİK</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">ANASAYFA</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ETKİNLİK
+                        </a>
+                        <ul class="dropdown-menu">
+                            <a href="konser.html" type="button" class="btn btn-light btn">KONSER</a>
+                            <a href="tiyatro.html" type="button" class="btn btn-light btn">TİYATRO</a>
+                            <a href="sinema.html" type="button" class="btn btn-light btn">SİNEMA</a>
+                            <a href="panel.html" type="button" class="btn btn-light btn">PANEL/SÖYLEŞİ</a>
+                            <a href="sergi.html" type="button" class="btn btn-light btn">SERGİ</a><br>
+                            <a href="senlik.html" type="button" class="btn btn-light btn">ŞENLİK</a>
+                            <a href="yarisma.html" type="button" class="btn btn-light btn">YARIŞMA</a>
+                            <a href="atolye.html" type="button" class="btn btn-light btn">ATÖLYE</a>
+                            <a href="diger.html" type="button" class="btn btn-light btn">ETKİNLİK</a>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            KONU
+                        </a>
+                        <ul class="dropdown-menu">
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">MUTFAK</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">BİLİM ve TEKNOLOJİ</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">SANAT</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">ENERJİ ve ÇEVRE</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">FİNANS/EKONOMİ</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">HOBİ/YAŞAM TARZI</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">KÜLTÜR/DİN</button>
+                            <button class="dropdown-item" type="button" onclick="alert('Hello World!')">KİŞİSEL GEİŞİM</button>
+
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+                <form class="d-flex" role="Arama">
+                    <input class="form-control me-2" type="Arama" placeholder="Search" aria-label="Arama">
+                    <button class="btn btn-outline-light" type="submit">Arama</button>
+                </form>
+                <ul>
+                    <div class="btn-group-vertical">
+                        <a href="girisyap.html" type="button" class="btn btn-light btn">Giriş Yap</a>
+                        <a href="kayitol.html" type="button" class="btn btn-light btn">Kayıt Ol</a>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+<main class="W-50 mx-auto">
+    <h2 class="text-center mb-5">Etkinlikler </h2>
+    <div class="form-group mb-3">
+    </div>
+
+<style>
+    span {
+      display: inline-block;
+      width: 225px;
+      height: 225px;
+      margin: 6px;
+      background-color: #f9f9f9;
+    }
+    container {
+                width: 80%;
+                margin: 0 auto;
+                padding: 80px 0;
+            }
+
+            .box {
+                width: 350px;
+                height: 500px;
+                background: gray;
+                margin: 20px 50px;
+                transition: 0.5s;
+            }
+
+            .box:hover {
+                transform: scale(1.2);
+                background: black;
+                z-index: 2;
+            }
+        </style>
+
+        </head>
+
+        <body>
+
+            <div class="container mt-3"></div>
+            <h2 class="text-center">Tiyatro </h2>
+            <br><br>
+            <span class="box"><img src="tiyatro (1).jpg"></span>
+            <span class="box"><img src="tiyatro2 (1).jpg"></span>
+            <span class="box"><img src="tiyatro3 (1).jpg"></span>
+            </div>
+    </style>
+
+  </head>
+  <body>
+                 
+            </main>
+
+
+
+    <footer class="bg-secondary p-5 text-white text-center">
+
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
